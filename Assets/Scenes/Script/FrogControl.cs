@@ -15,12 +15,12 @@ public class FrogControl : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(-0.03f, 0, 0); //왼쪽으로 1만큼 움직
+            transform.Translate(-0.03f, 0, 0); //왼쪽 버튼 누른만큼 움직
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(0.03f, 0, 0); //오른쪽으로 1만큼 움직
+            transform.Translate(0.03f, 0, 0); //오른쪽 버튼 누른만큼 움직
         }
     }
 }
